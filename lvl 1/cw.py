@@ -1,10 +1,9 @@
-#here r some data types:
+#1  
+print("Lizi")
+print(100)
+print(10.6)
 
-print("მათხუჯი") #<-- string - ტექსტი,რომელიც ბრჭყალებში გვაქვს მოც.
-print(100) #<-- integer -მთელი რიცხვები
-print(12.5) # <-- float -ათწილადები
-            # boolean - გადაეცემა მხოლოდ ორი მნიშვნ.:true(1) or false(0)
-
-name = "aleqsandre"
-country = "saqartvelo"
-car = "bulldozer"
+#2
+name = "Mari"
+Age = 15
+height = 165.5

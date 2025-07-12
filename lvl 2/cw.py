@@ -1,16 +1,16 @@
-#mathematical operations:+ - * /
-print(2 + 80)
-print(20 - 10)
-print(4 * 5)
-print(20 / 4)
+#1 
+Num_1 = 10
+Num_2 = 20 
+print(Num_1 + Num_2)
 
-#we cant add string and integer, cuz it'll result in an error. for ex.:
-# print("goga"+ 20) ---> result ---> error
-
-#the sum of strings = concatenation (კონკატინაცია)
-print("giorgi"+" yiyliyo")
-
-num1=40
-num2=20
-num3=num1+num2 #ცვლადებში(variables) შეგვიძლია შევინახოთ არა მხოლოდ ელემენტები, არამედ რაიმე მოქმედების შედეგიც(ამ შემთხვევაში ცვლადების ჯამი)
-print(num3)
+#2
+num_1 = 30
+num_2 = 60 
+sum = num_1 + num_2
+multiplic = num_1 * num_2
+subtr = num_2 - num_1
+div = num_2 / num_1
+print(sum)
+print(multiplic)
+print(subtr)
+print(div)

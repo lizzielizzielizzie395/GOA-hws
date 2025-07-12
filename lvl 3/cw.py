@@ -2,8 +2,8 @@ Age=15
 Age=16
 print(Age) #updated Age from 15 to 16
 
-Favsubject = "History"      #these are case-sensetive variables
-FavSubject = "chemistry"
+Favsubject = "History"      #these are case-sensitive variables (ასოები იქნება ზოგი დიდი ზოგი პატარა)
+FavSubject = "chemistry" 
 favSubject = "geography"
 FAVsubject = "math"
 FAVSUBJECT = "physics"
@@ -12,7 +12,7 @@ FAVSUBJECT = "physics"
 first_name = "Lizi"
 Last_name = "Gugunishvili"
 Fav_color = "pink"
-Fav_country = "Georgi"
+Fav_country = "Georgia"
 
 #integer type
 My_age = 140
@@ -38,4 +38,9 @@ print(seat_num)
 print(monthly_income) 
 print(temperature_in_Tbilisi)
 print(average_score)
-print(pi_approximation)                         
+print(pi_approximation)  
+
+username = "goga"
+user_surname = "chalauri"
+first_number = 200
+second_number = 123
