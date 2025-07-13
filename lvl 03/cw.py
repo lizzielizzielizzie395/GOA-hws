@@ -1,8 +1,8 @@
 Age=15
 Age=16
-print(Age) #updated Age from 15 to 16
+print(Age)     #updated Age from 15 to 16
 
-Favsubject = "History"      #these are case-sensitive variables (ასოები იქნება ზოგი დიდი ზოგი პატარა)
+Favsubject = "History"      
 FavSubject = "chemistry" 
 favSubject = "geography"
 FAVsubject = "math"
