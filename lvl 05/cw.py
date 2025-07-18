@@ -1,0 +1,5 @@
+weight = int(input("How much do you weigh?: "))
+height = int(input("How tall are you?: "))
+print(weight > height)
+print(weight < height)
+print(weight == height)

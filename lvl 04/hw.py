@@ -4,8 +4,9 @@
 #  output is a way for the computer to communicate with the outside world. for ex:a message displayed on the screen, the sound from a speaker, a document coming out from a printer and etc.
 
 #3
-Height = type(input("Whats your height?: "))
+Height = input("Whats your height?: ")
 print(Height)
+print(type(Height))
 
 #4
 Name = "Mari"  #class str.
