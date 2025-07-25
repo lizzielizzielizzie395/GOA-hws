@@ -56,4 +56,4 @@ print(type(situation_1))
 #8
 print(input("Whats your name?: "))
 print(int(input("How many bottles of water have u drunk today?: ")))
-print(bool(input("What's the temperature outside?: ")))
+print(float(input("What's the temperature outside?: ")))
