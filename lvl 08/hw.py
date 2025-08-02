@@ -43,8 +43,8 @@ for i in range(32):
 first_name = input("Whats your first name?: ")
 last_name = input("Whats your last name?: ")
 color = input("Whats your favorite color?: ")
-age = input("How old are you?: ")
-concatenation = first_name+last_name+color+age 
+age = int(input("How old are you?: "))
+concatenation = first_name+last_name+color+str(age) 
 print(concatenation)
 
 #11
