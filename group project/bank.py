@@ -17,11 +17,14 @@ while True:
         else:
             tries = tries - 1
             print("Pin code incorrect. "+ str(tries) + " " + "tries left.")
-        print( "Access denied. Please try again later.")
         print("--------------------------------------")
-    print("")
-    break
-
+    if tries == 0:
+        print("--------------------------------------")
+        print( "Access denied. Please try again later.")
+    else:
+        print("")  
+        break
+    
 
 #account
 print("----------✨Your account✨----------")
