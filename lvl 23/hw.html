@@ -1,0 +1,68 @@
+<!-- 1)შექმენით ფორმა, სადაც  მომხარებელს შემოატანინებთ  სახეელს, ემეილს, პაროლს, და მანქანის ბერენდს სადაც გექნებათ  dropdown მენიუ შესარჩევად -->
+<html>
+    <head>
+        <title>registration form</title>
+    </head>
+
+    <body>
+        <h1><u><i>~~~|Registration Form|~~~</i></u></h1>
+        <p>-----------------------------------------------------------------------------------------------------</p>
+
+        <form>
+            <label for="fname">
+                Enter your first name:
+                <input type="text" name="first_name" id="fname"  placeholder="first name" >
+            </label>
+            <br><br>
+
+            <label for="lname">
+                Enter your first name:
+                <input type="text" name="last_name" id="lname" placeholder="last name" >
+            </label>
+            <br><br>
+
+            <label for="em">
+                Enter your email:
+                <input type="email" name="email" id="em" placeholder="example@domain.com">
+            </label>
+            <br><br>
+
+            <label for="pass">
+                Enter your password:
+                <input type="password" name="password" id="pass" placeholder="•••••••••">
+            </label>
+            <br><br>
+
+            <label for="car">
+                Enter your favorite car brand:
+                <select id="car">
+                    <option selected>--------------</option>
+                    <option>Lexus</option>
+                    <option>BMW</option>
+                    <option>Mercedes</option>
+                    <option>Toyota</option>
+                    <option>Tesla</option>
+                </select>
+            </label>
+            <br>
+
+            <p>-----------------------------------------------------------------------------------------------------</p>
+            <button type="submit">Finish Registration</button>
+
+        </form>
+    
+    </body>
+</html>
+
+
+
+<!-- 2)კომენტარების სახით ახსენით როგორ იგებს პროგრამა ინპუთი სად შეინაახოს და როგორ შეინახოს.
+-----------------------------------------------------------------------------------------------------
+ინპუთში როცა ჩავწერთ ატრიბუტ name-ს,პროგრამა ხვდება, სად შეინახოს შეყვანილი მონაცემი. 
+ხოლო ატრიბუტი value-თი ხვდება, როგორ შეინახოს.
+
+3)კომენტარების სახით ახსენით რა ხდება როცა ვაsubmitებთ ფორმას, მისამართს რა ემართება და რა ემატება,  რა განაპირობებს ამას 
+-------------------------------------------------------------------------------------------------------------------------------
+მისამართს ემატება ატრიბუტ name-ის მონაცემი და ატრიბუტ value-ს მონაცემი შემდეგი სახით: ?name1=value1&name2=value2...
+ამას განაპირობებს პროგრამის მიერ შემოყვანილი მონაცემების მონაცემთა ბაზაში გაგზავნა.
+-->
