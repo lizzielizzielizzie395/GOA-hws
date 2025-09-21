@@ -146,4 +146,7 @@ else:
 vegetables = ["Carrot", "Broccoli", "Spinach", "Tomato", "Cucumber", "Bell Pepper", "Cauliflower"]
 
 Num = int(input("choose a number(0-6): "))
-print(vegetables[Num])
+if Num>=0 and Num <7:
+    print(vegetables[Num])
+else:
+    print("Number not found")
