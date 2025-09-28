@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>რეგისტრაცია GOA აკადემიაში</title>
+        <link rel="stylesheet" href="registration.css">
+    </head>
+    <body>
+
+        <header>
+            <h1><i>Goal Oriented Academy - მიზნებზე ორიენტირებული აკადემია</i></h1> 
+            <br>
+            <img src="goa.jpg"  width="1100">
+
+            <nav>
+                <a href="mainpage.html">💚მთავარი გვერდი💚</a>
+            </nav>
+        </header>
+
+        <h1 class="head">რეგისტრაცია GOA აკადემიაში</h1>
+
+        <form>
+            <div class="registration">
+                <div class="inputs">
+                    <label for="name">სახელი:</label>
+                    <input type="text" id="name" name="name" required><br>
+                </div>
+
+                <div class="inputs">
+                    <label for="email">ელ.ფოსტა:</label>
+                    <input type="email" id="email" name="email" required placeholder="example@domain.com" ><br>  
+                </div>
+
+                <div class="inputs">
+                    <label for="password">პაროლი:</label>
+                    <input type="password" id="password" name="password" required placeholder="•••••••••"><br>
+                </div>
+
+                <div class="inputs">
+                    <label for="tel">ტელეფონის ნომერი:</label>
+                    <input type="tel" id="tel" name="telephone" required placeholder="+995 •••••••••"><br>
+                </div>
+
+                <div class="inputs">
+                    <label>სქესი:</label>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">მამრ</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">მდედრ</label><br>
+                </div>
+
+                <div class="inputs">
+                    <label>მშობელი თუ მოსწავლე ბრძანდებით? :</label> <br><br>
+                    <input type="radio" id="par" name="choice1" value="parent" required>
+                    <label for="par">მშობელი</label>
+                    <input type="radio" id="stud" name="choice1" value="student">
+                    <label for="stud">მოსწავლე</label><br><br>
+                </div>
+
+                <div class="inputs">
+                    <label for="age">ასაკი:</label>
+                    <input type="number" id="age" name="age" min="5" max="100" required><br>
+                </div>
+            </div>
+
+            <button type="submit" class="submit">დარეგისტრირება</button>
+        </form>
+    </body>
+</html>

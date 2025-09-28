@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(#000000,#01703e) ;
+    color: #ffffff;
+}
+header {
+    background: linear-gradient(#022402,#01703e, #000000) ;
+    padding: 15px;
+    text-align: center;
+}
+header h1 {
+    display: inline-block;
+    border: 4px solid #000000;
+    border-radius: 8px;
+    padding: 10px 20px ;
+    background-color: #0b0b0b;
+    color:#15ce04
+}
+
+header h2 {
+    color: #ffffff;
+}
+
+header h3 {
+    color:#ffffff
+}
+
+nav a {
+    display: inline-block;       /* ლინკები პატარა ბლოკებად იქცეს */
+    padding: 10px 20px;          /* ღილაკის შიგნით დაშორება ტექსტისა და ჩარჩოს შორის */
+    margin: 10px;                 /* ღილაკებს შორის დაშორება */
+    border: 2px solid #01703e;   /* მწვანე ჩარჩო */
+    border-radius: 8px;          /* ოვალური კუთხეები */
+    background-color: #0f1a12;   /* მუქი ფონი */
+    color: #a2fa15;              /* ტექსტის ფერი */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    background-color: #04d20b;   /* მაუსის გადატარებისას მწვანე ფონი */
+    color: white;                /* მაუსის გადატარებისას თეთრი ტექსტი */
+}
+
+.line {
+    height: 4px;             /* ხაზის სიმაღლე */
+    background-color: #000000; /* ხაზის ფერი */
+    width: 1050px;            /* ხაზის სიგანე */
+    margin: 20px auto;
+}
+
+.info {
+    display: flex;         /* გვერდიგვერდ დალაგება */
+    align-items: center;   /* ტექსტიც და ვიდეოც შუაშია*/
+    gap: 20px;             /* სივრცე ვიდეოსა და ტექსტს შორის */
+    padding: 20px;
+}
+
+.video {
+    border: 4px solid #01703e; /* ლამაზი ჩარჩო */
+    border-radius: 10px;       /* ოდნავ მომრგვალებული კუთხეები */
+}
+
+.text {
+    border: 5px solid #02a623;
+    background: linear-gradient(#022402,#01703e, #022402) ;
+    max-width: 500px;   /* ტექსტი ზედმეტად არ გაიჭიმოს */
+    border-radius: 10px; 
+    text-align: center;   /* ცენტრშია ტექსტი */
+    padding: 7px;      /* მიწეპებულია არაა ჩარჩოს*/
+    font-size: 20px;
+}
+
+.text1 {
+    border: 6px solid #02a623;
+    background: linear-gradient(#022402,#01703e, #022402) ;
+    size: 10px;
+    max-width: 1000px;   /* ტექსტი ზედმეტად არ გაიჭიმოს */
+    border-radius: 10px; 
+    text-align: center;   /* მარცხნივაა ტექსტი */
+    padding: 6px;      /* მიწეპებულია არაა ჩარჩოს*/
+    margin: 10px 50px; /* ვერტიკალური და ჰორიზონტალური სივრცეები*/
+    font-size: 20px ;
+}
+
+.logo { 
+    margin: 20px auto;        /* ცენტრში განთავსება */
+    border: 4px solid #01703e; /* მწვანე ჩარჩო */
+    border-radius: 10px;      /* მომრგვალებული კუთხეები */
+}
+
+footer {
+    background: #0f1a12;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #9fbfae;
+}

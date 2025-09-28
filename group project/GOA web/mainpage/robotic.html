@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>🤖 GOA-ს რობოტიკის კურსი</title>
+
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                background: linear-gradient(#121300,#8a8f03);
+                color: #ffffff;
+            }
+
+            header {
+                background: linear-gradient(#022402,#01703e, #000000) ;
+                padding: 15px;
+                text-align: center;
+            }
+
+            header h1 {
+                background-color: #0b0b0b;
+                color:#15ce04;
+                border: 4px solid #000000;
+                border-radius: 8px;
+                padding: 10px 20px;
+                display: inline-block;
+            }
+
+            header h2 {
+                color: #ffffff;
+                
+            }
+
+            header h3 {
+                color:#ffffff
+            }
+
+
+            nav a {
+                display: inline-block;
+                padding: 10px 20px; /*ღილაკსა და ტექსტს შორის დაშორება*/
+                margin: 10px; 
+                border: 2px solid #01703e;
+                border-radius: 8px;
+                background-color: #000000;
+                color: #a2fa15; 
+                text-decoration: none ;
+                font-weight: bold;
+                font-size: 20px
+
+            }
+
+            nav a:hover{
+                background-color: #04d20b;   /* მაუსის გადატარებისას მწვანე ფონი */
+                color: white;
+            }
+
+            .robo {
+                display: block;
+                padding: 10px;
+                margin: 10px auto;
+                max-width: 900px;
+                text-align: center;
+                border: 5px solid #80a602;
+                border-radius: 8px;
+                background: linear-gradient(#363e01,#c0ce05, #363e01) ;
+                color: #ffffff;
+            }
+
+            .info {
+                display: flex;         /* გვერდიგვერდ დალაგება */
+                align-items: center;   /* ტექსტიც და ვიდეოც შუაშია*/
+                gap: 20px;             /* სივრცე ვიდეოსა და ფოტოს შორის */
+                padding: 20px;
+            }
+
+
+            .text {
+                border: 6px solid #80a602;;
+                border-radius: 10px; 
+                background: linear-gradient(#363e01,#c0ce05, #363e01) ;
+                size: 10px;
+                max-width: 550px;   /* ტექსტი ზედმეტად არ გაიჭიმოს */
+                text-align: center;   /* მარცხნივაა ტექსტი */
+                padding: 6px;      /* მიწეპებულია არაა ჩარჩოს*/
+                margin: 2px 3px; /* ვერტიკალური და ჰორიზონტალური სივრცეები*/
+                font-size: 23px ;
+            }
+
+            .photo {
+                border: 6px solid #80a602;;
+                border-radius: 10px; 
+            }
+
+            footer {
+                background: #0f1a12;
+                text-align: center;
+                padding: 15px;
+                font-size: 14px;
+                color: #9fbfae;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1><i>Goal Oriented Academy - მიზნებზე ორიენტირებული აკადემია</i></h1> 
+            <br>
+            <img src="goa.jpg"  width="1100">
+
+            <nav>
+                <a href="mainpage.html">💚მთავარი გვერდი💚</a>
+                <a href="courselist.html">ინფორმაცია კურსებზე</a>
+            </nav>
+        </header>
+
+        <h1 class="robo">🤖 GOA-ს რობოტიკისა და ელექტრული ინჟინერიის კურსი</h1>
+
+        <div class="info">
+            
+            <div class="text">
+            <h2 >კურსის შესახებ</h2>
+            <ul>
+                <li><strong>Arduino:</strong> პატარა ელექტრონული დაფა, რომელზეც შეგიძლია პროგრამირება.</li>
+                <li>შეგიძლია აანთო LED, მოძრაობდეს პატარა მოტორები და ჩართო სენსორები.</li>
+                <li>სწავლობთ ელექტრულ ინჟინერიას და ლოგიკას პატარა პროექტებით, მაგალითად „LED ციმციმებს“.</li>
+            </ul>
+            </div>
+
+            <img src="robo.png" class="photo" width="500">
+        </div>
+
+        <div class="info">
+            <img src="robo1.png" class="photo" width="600">
+
+            <div class="text">
+                <p><b>მენტორი:</b> ბატონი გაბრიელ მოლოდინი</p>
+                <p><b>დაწყების დრო და განრიგი:</b></p>
+                <ul>
+                    <li>კურსი დაიწყება: 13 ოქტომბერი</li>
+                    <li>კვირაში ერთხელ</li>
+                    <li>ხანგრძლივობა: 1 წელი</li>
+                </ul>
+                <p><b>💰თვიური ფასი:</b> 170 ლარი</p>
+            </div>
+        </div>
+
+        <footer>
+            © 2025 გოა აკადემია • ყველა უფლება დაცულია
+        </footer>
+    </body>
+</html>

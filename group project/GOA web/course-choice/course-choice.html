@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>კურსის არჩევა</title>
+
+        <link rel="stylesheet" href="course-choice.css">
+    </head>
+    
+    <body>
+        <header>
+            <h1><i>Goal Oriented Academy - მიზნებზე ორიენტირებული აკადემია</i></h1> 
+            <br>
+            <img src="goa.jpg"  width="1100">
+
+            <nav>
+                <a href="mainpage.html">💚მთავარი გვერდი💚</a>
+                <a href="courselist.html">ინფორმაცია კურსებზე</a>
+            </nav>
+        </header>
+
+        <h2 class="head">კურსის არჩევა</h2>
+
+        <div class="registration">
+            <form>
+                <div class="inputs">
+                    <label for="kursi">
+                        <b>აირჩიეთ კურსი:</b>
+                        <select id="kursi" name="kursi">
+                            <option value="">-- აირჩიე --</option>
+                            <option value="programireba">პროგრამირება</option>
+                            <option value="eleqtronika">ელექტრონიკა და არდუინო</option>
+                            <option value="tamashobis">თამაშების შექმნა</option>
+                            <option value="dizaini">გრაფიკული დიზაინი</option>
+                            <option value="inglisuri">ინგლისური ენა</option>
+                            <option value="mate">მათემატიკა</option>
+                            <option value="fullstack">ვებ დეველოპმენტი</option>
+                        </select>
+                    </label> 
+                </div>
+
+                <div class="inputs">
+                    <label for="week">
+                        <b>კვირაში რამდენი დღე გინდათ სწავლა:</b>
+                        <input type="number" name="dgebis_raodenoba" min="1" max="5">
+                    </label>
+                </div>
+
+                <div class="inputs">
+                    <label for="days" >
+                        <b></b>აირჩიეთ დღეები: <br>
+                        <input type="checkbox" name="days" value="ორშაბათი"> ორშაბათი <br>
+                        <input type="checkbox" name="days" value="სამშაბათი"> სამშაბათი <br>
+                        <input type="checkbox" name="days" value="ოთხშაბათი"> ოთხშაბათი <br>
+                        <input type="checkbox" name="days" value="ხუთშაბათი"> ხუთშაბათი <br>
+                        <input type="checkbox" name="days" value="პარასკევი"> პარასკევი <br>
+                        <input type="checkbox" name="days" value="შაბათი"> შაბათი <br>
+                        <input type="checkbox" name="days" value="კვირა"> კვირა <br>
+                    </label>
+                </div>
+
+                <br>
+
+                <button type="submit" class="submit">გადახდა</button>
+            </form>
+        </div>
+
+         <footer>
+            © 2025 გოა აკადემია • ყველა უფლება დაცულია
+        </footer>
+    </body>
+</html>
