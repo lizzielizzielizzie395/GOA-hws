@@ -1,0 +1,169 @@
+ body {
+    margin: 0;
+    font-family: "Noto Serif Georgian";
+    background: linear-gradient( #36093a,#642697, #320947);
+    color: #ffffff;
+}
+
+header {
+    background: linear-gradient(#022402,#01703e, #000000) ;
+    padding: 15px;
+    text-align: center;
+}
+
+.headlogo {
+    border-top-style: dotted; 
+    border-bottom-style: dotted;
+    border-color: #06ab03;
+    box-shadow: 1px 1px 10px #027101;
+    border-radius: 10px;
+    border-width: 2px;
+
+}
+
+header h1 {
+    display: inline-block;
+    border: 4px solid #000000;
+    border-radius: 8px;
+    padding: 10px 20px ;
+    background-color: #0b0b0b;
+    color:#15ce04;
+    font-family: "Noto Serif Georgian";  
+
+    border-top-style: dotted; 
+    border-bottom-style: dotted;
+    border-color: #04ff00;
+    box-shadow: 1px 1px 10px #04ff00;
+    border-radius: 100px;
+    border-width: 2px;
+}
+
+
+nav a {
+    display: inline-block;       /* ლინკები პატარა ბლოკებად იქცეს */
+    padding: 10px 20px;          /* ღილაკის შიგნით დაშორება ტექსტისა და ჩარჩოს შორის */
+    margin: 10px;                 /* ღილაკებს შორის დაშორება */
+    border: 2px solid #01703e;   /* მწვანე ჩარჩო */
+    border-radius: 8px;          /* ოვალური კუთხეები */
+    background-color: #0f1a12;   /* მუქი ფონი */
+    color: #a2fa15;              /* ტექსტის ფერი */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+
+    border-top-style: dotted; 
+    border-bottom-style: dotted;
+    border-color: #04ff00;
+    box-shadow: 1px 1px 10px #04ff00;
+    border-radius: 100px;
+    border-width: 2px;
+}
+
+
+nav a:hover {
+    background-color: #04d20b;   /* მაუსის გადატარებისას მწვანე ფონი */
+    color: white;                /* მაუსის გადატარებისას თეთრი ტექსტი */
+}
+
+nav a:hover {
+    background-color: #04d20b;   /* მაუსის გადატარებისას მწვანე ფონი */
+    color: white;                /* მაუსის გადატარებისას თეთრი ტექსტი */
+}
+
+
+.head {
+  display: block;
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 900px;
+  text-align: center;
+  border: 5px solid #2b02a6;
+  border-radius: 8px;
+  background: linear-gradient( #3d0a5b,#7c369f, #38074f);
+  color: #ffffff;
+  font-size: 30px;
+
+  border-top-style: dotted; 
+  border-bottom-style: dotted;
+  border-color: #c569ff;
+  box-shadow: 1px 1px 10px #cd60ff;
+  border-radius: 100px;
+  border-width: 2px;
+}
+
+
+
+.head1 {
+  display: block;
+  padding: 10px;
+  margin: 10px auto;
+  max-width: 500px;
+  text-align: center;
+  background: linear-gradient( #390b46,#6f3094, #420d58);
+  color: #ffffff;
+  font-size: 30px;
+
+  border-top-style: dotted; 
+  border-bottom-style: dotted;
+  border-color: #c69fe0;
+  box-shadow: 1px 1px 10px #dec3fd;
+  border-radius: 100px;
+  border-width: 2px;
+}
+                
+.image {
+  box-shadow: 1px 1px 40px 10px  #2e050587;
+  border: 50px;
+  border-style: groove;
+  border-width: 3px;
+  box-shadow: 1px 1px 200px 2px #a97fbb;
+}      
+
+
+video {
+  border: 50px;
+  border-width: 3px;
+  box-shadow: 1px 1px 200px 2px #c88ad4ab;
+  margin-left: 50px;
+}
+
+h2 {
+  color: #ffffff; 
+  text-shadow: 1px 1px 10px #9035a7; 
+  font-family: "Noto Serif Georgian";  
+}
+                
+h3 {
+  color: #fbfbfb; 
+  font-family: "Noto Serif Georgian";  
+}
+
+
+.info {
+  display: flex;         /* გვერდიგვერდ დალაგება */
+  align-items: center;   /* ტექსტიც და ვიდეოც შუაშია*/
+  gap: 60px;             /* სივრცე ვიდეოსა და ფოტოს შორის */
+  padding: 20px;
+}
+
+.text {
+  border: 6px solid #8f4aa0;
+  border-radius: 10px; 
+  background: linear-gradient(#3a0e4e,#76338a,#3e0f4d);
+  max-width: 700px;   /* ტექსტი ზედმეტად არ გაიჭიმოს */
+  text-align: center;  
+  padding: 18px;      /* მიწეპებულია არაა ჩარჩოს*/
+  margin: 2px auto; /* ვერტიკალური და ჰორიზონტალური სივრცეები*/
+  font-size: 20px ;
+  box-shadow: 2px 0px 15px #924aa4;
+}
+
+
+footer {
+  background: #0f1a12;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #9fbfae;
+  z-index: 10;
+}

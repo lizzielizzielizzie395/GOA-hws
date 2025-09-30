@@ -1,7 +1,6 @@
 <html>
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
 
         <title>კურსის არჩევა</title>
 
@@ -12,7 +11,7 @@
         <header>
             <h1><i>Goal Oriented Academy - მიზნებზე ორიენტირებული აკადემია</i></h1> 
             <br>
-            <img src="goa.jpg"  width="1100">
+            <img src="goa.jpg" class="headlogo" width="1100">
 
             <nav>
                 <a href="mainpage.html">💚მთავარი გვერდი💚</a>
@@ -49,7 +48,7 @@
 
                 <div class="inputs">
                     <label for="days" >
-                        <b></b>აირჩიეთ დღეები: <br>
+                        <b>აირჩიეთ დღეები:</b> <br>
                         <input type="checkbox" name="days" value="ორშაბათი"> ორშაბათი <br>
                         <input type="checkbox" name="days" value="სამშაბათი"> სამშაბათი <br>
                         <input type="checkbox" name="days" value="ოთხშაბათი"> ოთხშაბათი <br>
@@ -58,6 +57,56 @@
                         <input type="checkbox" name="days" value="შაბათი"> შაბათი <br>
                         <input type="checkbox" name="days" value="კვირა"> კვირა <br>
                     </label>
+                </div>
+
+
+                
+                <h2 class="head">ბარათით გადახდა</h2>
+
+                <div class="inputs">
+                    <label for="firstname">სახელი:</label>
+                    <input type="text" id="firstname" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="lastname">გვარი:</label>
+                    <input type="text" id="lastname" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="email">ელ.ფოსტა:</label>
+                    <input type="email" id="email" required>
+                </div>
+
+                <div class="inputs">
+                    <label for="phone">ტელეფონის ნომერი</label>
+                            <select>
+                                <option value="+555">+555</option>
+                                <option value="+598">+598</option>
+                                <option value="+567">+567</option>
+                                <option value="+592">+592</option>
+                                <option value="+599">+599</option>
+                                <option value="+768">+768</option>
+                                <option value="+321">+321</option>
+                                <option value="+986">+986</option>
+                                <option value="+568">+568</option>
+                            </select>
+                    <input type="tel" id="phone">
+                </div>
+
+                <div class="inputs">
+                    <label for="card">კარტის ნომერი:</label>
+                    <input type="text" id="card" name="card" required>
+                </div>
+                
+                <div class="inputs">
+                   <label for="exp">მოქმედების ვადა (MM/YY):</label>
+                    <input type="text" id="exp"  required> 
+                </div>
+                
+                <div class="inputs">
+                    <label for="cvc">CVC კოდი:</label>
+                    <input type="text" id="cvc" required>
                 </div>
 
                 <br>

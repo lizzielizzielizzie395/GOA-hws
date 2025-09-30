@@ -9,21 +9,36 @@ header {
     padding: 15px;
     text-align: center;
 }
+
+.headlogo {
+    border-top-style: dotted; 
+    border-bottom-style: dotted;
+    border-color: #06ab03;
+    box-shadow: 1px 1px 10px #027101;
+    border-radius: 10px;
+    border-width: 2px;
+
+}
+
 header h1 {
     display: inline-block;
     border: 4px solid #000000;
     border-radius: 8px;
     padding: 10px 20px ;
     background-color: #0b0b0b;
-    color:#15ce04
+    color:#15ce04;
+    font-family: "Noto Serif Georgian";  
+
+    border-top-style: dotted; 
+    border-bottom-style: dotted;
+    border-color: #04ff00;
+    box-shadow: 1px 1px 10px #04ff00;
+    border-radius: 100px;
+    border-width: 2px;
 }
 
 header h2 {
     color: #ffffff;
-}
-
-header h3 {
-    color:#ffffff
 }
 
 nav a {
@@ -37,7 +52,15 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
+
+    border-top-style: dotted; 
+    border-bottom-style: dotted;
+    border-color: #04ff00;
+    box-shadow: 1px 1px 10px #04ff00;
+    border-radius: 100px;
+    border-width: 2px;
 }
+
 
 nav a:hover {
     background-color: #04d20b;   /* მაუსის გადატარებისას მწვანე ფონი */
@@ -61,6 +84,7 @@ nav a:hover {
 .video {
     border: 4px solid #01703e; /* ლამაზი ჩარჩო */
     border-radius: 10px;       /* ოდნავ მომრგვალებული კუთხეები */
+    box-shadow: 1px 1px 10px #04ff00;
 }
 
 .text {
@@ -71,6 +95,7 @@ nav a:hover {
     text-align: center;   /* ცენტრშია ტექსტი */
     padding: 7px;      /* მიწეპებულია არაა ჩარჩოს*/
     font-size: 20px;
+    box-shadow: 1px 1px 10px #04ff00;
 }
 
 .text1 {
@@ -83,12 +108,16 @@ nav a:hover {
     padding: 6px;      /* მიწეპებულია არაა ჩარჩოს*/
     margin: 10px 50px; /* ვერტიკალური და ჰორიზონტალური სივრცეები*/
     font-size: 20px ;
+    box-shadow: 1px 1px 10px #04ff00;
 }
 
 .logo { 
     margin: 20px auto;        /* ცენტრში განთავსება */
     border: 4px solid #01703e; /* მწვანე ჩარჩო */
     border-radius: 10px;      /* მომრგვალებული კუთხეები */
+    box-shadow: 1px 1px 10px #04ff00; /*1px – ჩრდილის ჰორიზონტალური 1px – ჩრდილის ვერტიკალური
+                                        10px –  ჩრდილის რადიუსი*/
+
 }
 
 footer {

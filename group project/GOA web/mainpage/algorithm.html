@@ -19,43 +19,66 @@
                 text-align: center;
             }
 
+            .headlogo {
+                border-top-style: dotted; 
+                border-bottom-style: dotted;
+                border-color: #06ab03;
+                box-shadow: 1px 1px 10px #027101;
+                border-radius: 10px;
+                border-width: 2px;
+
+            }
+
             header h1 {
-                background-color: #0b0b0b;
-                color:#15ce04;
+                display: inline-block;
                 border: 4px solid #000000;
                 border-radius: 8px;
-                padding: 10px 20px;
-                display: inline-block;
+                padding: 10px 20px ;
+                background-color: #0b0b0b;
+                color:#15ce04;
+                font-family: "Noto Serif Georgian";  
+
+                border-top-style: dotted; 
+                border-bottom-style: dotted;
+                border-color: #04ff00;
+                box-shadow: 1px 1px 10px #04ff00;
+                border-radius: 100px;
+                border-width: 2px;
             }
 
             header h2 {
                 color: #ffffff;
-                
             }
 
             header h3 {
                 color:#ffffff
             }
 
-
             nav a {
-                display: inline-block;
-                padding: 10px 20px; /*ღილაკსა და ტექსტს შორის დაშორება*/
-                margin: 10px; 
-                border: 2px solid #01703e;
-                border-radius: 8px;
-                background-color: #000000;
-                color: #a2fa15; 
-                text-decoration: none ;
+                display: inline-block;       /* ლინკები პატარა ბლოკებად იქცეს */
+                padding: 10px 20px;          /* ღილაკის შიგნით დაშორება ტექსტისა და ჩარჩოს შორის */
+                margin: 10px;                 /* ღილაკებს შორის დაშორება */
+                border: 2px solid #01703e;   /* მწვანე ჩარჩო */
+                border-radius: 8px;          /* ოვალური კუთხეები */
+                background-color: #0f1a12;   /* მუქი ფონი */
+                color: #a2fa15;              /* ტექსტის ფერი */
+                text-decoration: none;
                 font-weight: bold;
-                font-size: 20px
+                font-size: 18px;
 
+                border-top-style: dotted; 
+                border-bottom-style: dotted;
+                border-color: #04ff00;
+                box-shadow: 1px 1px 10px #04ff00;
+                border-radius: 100px;
+                border-width: 2px;
             }
 
-            nav a:hover{
+            nav a:hover {
                 background-color: #04d20b;   /* მაუსის გადატარებისას მწვანე ფონი */
-                color: white;
+                color: white;                /* მაუსის გადატარებისას თეთრი ტექსტი */
             }
+
 
             .alg {
                 display: block;
@@ -67,6 +90,13 @@
                 border-radius: 8px;
                 background:linear-gradient(#01323f , #0873bf, #01323f ) ;
                 color: #ffffff;
+
+                border-top-style: dotted; 
+                border-bottom-style: dotted;
+                border-color: #0873bf;
+                box-shadow: 1px 1px 10px #0873bf;
+                border-radius: 100px;
+                border-width: 3px;
             }
 
             .info {
@@ -78,7 +108,7 @@
 
 
             .text {
-                border: 6px solid #0678e2;
+                border: 6px solid #0455a1;
                 border-radius: 10px; 
                 background:linear-gradient(#01323f , #0873bf, #01323f ) ;
                 size: 10px;
@@ -87,11 +117,13 @@
                 padding: 6px;      /* მიწეპებულია არაა ჩარჩოს*/
                 margin: 2px 2px; /* ვერტიკალური და ჰორიზონტალური სივრცეები*/
                 font-size: 20px ;
+                box-shadow: 1px 1px 10px #26a3fd;
             }
 
             .AI {
-                border: 6px solid #0678e2;
+                border: 6px solid #0455a1;
                 border-radius: 10px; 
+                box-shadow: 1px 1px 10px #26a3fd;
             }
 
             footer {
@@ -109,7 +141,7 @@
         <header>
             <h1><i>Goal Oriented Academy - მიზნებზე ორიენტირებული აკადემია</i></h1> 
             <br>
-            <img src="goa.jpg"  width="1100">
+            <img src="goa.jpg" class="headlogo" width="1100">
 
             <nav>
                 <a href="mainpage.html">💚მთავარი გვერდი💚</a>
